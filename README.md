@@ -12,7 +12,7 @@ This snippet configures Matplotlib and Seaborn for high-quality, accessible data
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
-from pandas.core.common import SettingWithCopyWarning
+from pandas.errors import SettingWithCopyWarning
 
 # Suppress specific warnings for cleaner output
 warnings.simplefilter(action="ignore", category=FutureWarning)
