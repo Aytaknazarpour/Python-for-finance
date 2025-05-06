@@ -24,4 +24,5 @@ sns.set_theme(
     style="whitegrid",        # Clean grid background
     palette="colorblind",     # Accessible color scheme
     color_codes=True,         # Enable shorthand color codes
-    rc={"figure.figsize": [12, 8]}  # Default figure siz)
+    rc={"figure.figsize": [12, 8]}  # Default figure siz
+     )
